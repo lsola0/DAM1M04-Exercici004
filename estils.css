@@ -1,0 +1,13 @@
+.cap {
+    display: inline-flex;
+    background-color: grey;
+    position: fixed;
+    margin:auto;
+    margin-top:10px;
+    padding:5px;
+    text-align: center;
+    border-radius:20px;
+    top: 0px;
+    width:auto;
+    
+}
