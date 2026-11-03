@@ -1,10 +1,21 @@
 .cap {
-    display: inline-flex; 
+    display: flex; 
+    top:0;
+    left: 0.1%;
     position: fixed;
-    margin: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color: none;
     padding:20px;
     text-align: center;
-    width:200px;
+    width:100dvh;
     
+}
+.pictureTextBox {
+    align-items: center;
+    background: center / cover url("./imageMain.jpg");
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 400px;
+    position: relative;
 }
