@@ -9,10 +9,11 @@ h1, h2, h3 {
 
 footer {
   display:flex;
-  padding:20px;
+  padding:50px;
   background-color: #000;
   color:white;
   margin:auto;
+  justify-content:space-evenly;
 }
 .etiqueta, .dada { /*adaptarlo o ponerlo en el sitio correspondiente*/
     font-family: 'JetBrains Mono', monospace;
