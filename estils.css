@@ -8,6 +8,7 @@ h1, h2, h3 {
       }
 
 footer {
+  display:flex;
   padding:20px;
   background-color: #000;
   color:white;
@@ -17,6 +18,12 @@ footer {
     font-family: 'JetBrains Mono', monospace;
     font-weight: 400;
     }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
 .hero {
   position: relative;
   isolation: isolate;
